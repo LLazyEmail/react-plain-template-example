@@ -3,14 +3,14 @@ export const link = `<Link href="{href}">{content}</Link>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const linkComponent = (href, content) => {
+    return `<Link href="${href}">${content}</Link>`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { link, linkComponent };
 
 
 

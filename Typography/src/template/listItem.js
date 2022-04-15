@@ -3,14 +3,14 @@ export const listItem = `<ListItem>{content}</ListItem>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const listItemComponent = (content) => {
+    return `<ListItem>${content}</ListItem>`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { listItem, listItemComponent };
 
 
 

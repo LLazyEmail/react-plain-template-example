@@ -3,14 +3,13 @@ export const mainTitle = `<MainTitle>{content}</MainTitle>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const mainTitleComponent = (content) => {
+    return `<MainTitle>${content}</MainTitle>`;
 }
 
 
 
-
-export { ctaList, ctaComponent };
+export { mainTitle, mainTitleComponent };
 
 
 

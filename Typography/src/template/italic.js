@@ -2,14 +2,14 @@ export const italic = `<Italic>{content}</Italic>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const italicComponent = (content) => {
+    return `<Italic>${content}</Italic>`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { italic, italicComponent };
 
 
 

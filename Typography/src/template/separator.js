@@ -3,14 +3,14 @@ export const separator = `<Separator />`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const separatorComponent = () => {
+    return `<Separator />`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { separator, separatorComponent };
 
 
 

@@ -3,14 +3,14 @@ export const q = "<Q>{content}</Q>";
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const qComponent = (content) => {
+    return "<Q>${content}</Q>";
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { q, qComponent };
 
 
 

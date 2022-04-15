@@ -3,14 +3,14 @@ export const strong = `<Strong>{content}</Strong>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const strongComponent = (content) => {
+    return `<Strong>${content}</Strong>`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { strong, strongComponent };
 
 
 

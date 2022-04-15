@@ -4,14 +4,14 @@ export const list = `<List type="{type}">{content}</List>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const listComponent = (type, content) => {
+    return `<List type="${type}">${content}</List>`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { list, listComponent };
 
 
 
