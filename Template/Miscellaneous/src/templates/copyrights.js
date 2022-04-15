@@ -3,14 +3,14 @@ export const copyrights = `<Copyright />`;
 
 
 
-const ctaComponent = () => {
+const copyrightsComponent = () => {
     return `<Copyright />`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { copyrights, copyrightsComponent };
 
 
 

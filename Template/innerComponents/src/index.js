@@ -1,10 +1,12 @@
-import { footer, } from './templates/footer';
-import { headline, } from './templates/headline';
-import { logoBottom, } from './templates/logoBottom';
-import { logoTop, } from './templates/logoTop';
-import { previewText, } from './templates/previewText';
-import { section, } from './templates/section';
-import { sponsor, } from './templates/sponsor';
+import { footer, footerComponent } from './templates/footer';
+import { headline, headlineComponent } from './templates/headline';
+import { logoBottom, logoBottomComponent } from './templates/logoBottom';
+import { logoTop, logoTopComponent } from './templates/logoTop';
+import { previewText, previewTextComponent } from './templates/previewText';
+import { section, sectionComponent } from './templates/section';
+import { sponsor, sponsorComponent } from './templates/sponsor';
+
+// import innerComponents from './components'
 
 const body = {
     footer,

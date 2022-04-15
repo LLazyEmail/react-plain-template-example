@@ -1,16 +1,9 @@
-export const sponsor = `<Sponsor param="{content}" />`;
+const sponsor = `<Sponsor param="{content}" />`;
 
 
-
-
-const ctaComponent = (content) => {
+const sponsorComponent = (content) => {
     return `<Sponsor param="${content}" />`;
 }
 
 
-
-
-export { ctaList, ctaComponent };
-
-
-
+export { sponsor, sponsorComponent };

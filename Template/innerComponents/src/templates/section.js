@@ -1,16 +1,8 @@
-export const section = `<Section>{content}</Section>`;
+const section = `<Section>{content}</Section>`;
 
-
-
-
-const ctaComponent = (content) => {
+const sectionComponent = (content) => {
     return `<Section>${content}</Section>`;
 }
 
 
-
-
-export { ctaList, ctaComponent };
-
-
-
+export { section, sectionComponent };

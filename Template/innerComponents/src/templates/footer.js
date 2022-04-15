@@ -1,17 +1,17 @@
-import Misc from '../../misc';
+// import Misc from '../../misc';
 
-const {
-    address,
-    copyrights,
-    fonts,
-    headStyles,
-    newsletterSponsorshipLink,
-    unsubscribe,
-} = Misc;
+// const {
+//     address,
+//     copyrights,
+//     fonts,
+//     headStyles,
+//     newsletterSponsorshipLink,
+//     unsubscribe,
+// } = Misc;
 
 
 
-export const footer = `<Footer>{children}</Footer>`;
+const footer = `<Footer>{children}</Footer>`;
 
 
 const footerComponent = (children) => {
@@ -19,7 +19,4 @@ const footerComponent = (children) => {
 }
 
 
-
-
 export { footer, footerComponent };
-

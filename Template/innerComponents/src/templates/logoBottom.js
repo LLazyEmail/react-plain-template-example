@@ -1,16 +1,9 @@
-export const logoBottom = `<Logo />`;
+const logoBottom = `<Logo />`;
 
 
-
-
-const ctaComponent = () => {
+const logoBottomComponent = () => {
     return `<Logo />`;
 }
 
 
-
-
-export { ctaList, ctaComponent };
-
-
-
+export { logoBottom, logoBottomComponent };

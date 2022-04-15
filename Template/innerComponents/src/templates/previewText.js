@@ -1,16 +1,9 @@
-export const previewText = `<PreviewText>{content}</PreviewText>`;
+const previewText = `<PreviewText>{content}</PreviewText>`;
 
 
-
-
-const ctaComponent = (content) => {
+const previewTextComponent = (content) => {
     return `<PreviewText>${content}</PreviewText>`;
 }
 
 
-
-
-export { ctaList, ctaComponent };
-
-
-
+export { previewText, previewTextComponent };

@@ -1,18 +1,12 @@
-import config from '../../config';
+// import config from '../../config';
 
-export const newsletterSponsorshipLink = `<NewsletterSponsorshipLink />`;
+const newsletterSponsorshipLink = `<NewsletterSponsorshipLink />`;
 
-
-
-
-const ctaComponent = () => {
+const newsletterSponsorshipLinkComponent = () => {
     return `<NewsletterSponsorshipLink />`;
 }
 
-
-
-
-export { ctaList, ctaComponent };
+export { newsletterSponsorshipLink, newsletterSponsorshipLinkComponent };
 
 
 

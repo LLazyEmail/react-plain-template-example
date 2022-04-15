@@ -1,9 +1,11 @@
-import { address } from './templates/address';
-import { copyrights } from './templates/copyrights';
-import { fonts } from './templates/fonts';
-import { headStyles } from './templates/head-styles';
-import { newsletterSponsorshipLink } from './templates/newsletter-sponsorship-link';
-import { unsubscribe } from './templates/unsubscribe';
+import { address, addressComponent } from './templates/address';
+import { copyrights , copyrightsComponent} from './templates/copyrights';
+import { fonts, fontsComponent } from './templates/fonts';
+import { headStyles, headStylesComponent } from './templates/head-styles';
+import { newsletterSponsorshipLink, newsletterSponsorshipLinkComponent } from './templates/newsletter-sponsorship-link';
+import { unsubscribe, unsubscribeComponent } from './templates/unsubscribe';
+
+// import MiscellaneousComponents from './components'
 
 const misc =  {
     address,
