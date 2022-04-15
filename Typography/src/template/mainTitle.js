@@ -1,6 +1,4 @@
-export const mainTitle = `<MainTitle>{content}</MainTitle>`;
-
-
+const mainTitle = `<MainTitle>{content}</MainTitle>`;
 
 
 const mainTitleComponent = (content) => {
@@ -8,8 +6,4 @@ const mainTitleComponent = (content) => {
 }
 
 
-
 export { mainTitle, mainTitleComponent };
-
-
-

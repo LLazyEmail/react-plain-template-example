@@ -1,6 +1,4 @@
-export const image = `<Image href="{href}" src="{src}" alt="{altText}" />`;
-
-
+const image = `<Image href="{href}" src="{src}" alt="{altText}" />`;
 
 
 const imageComponent = (href, src, altText) => {
@@ -8,9 +6,5 @@ const imageComponent = (href, src, altText) => {
 }
 
 
-
-
 export { image, imageComponent };
-
-
 

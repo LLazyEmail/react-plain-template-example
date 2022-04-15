@@ -1,6 +1,4 @@
-export const subtitle = `<SubTitle>{content}</SubTitle>`;
-
-
+const subtitle = `<SubTitle>{content}</SubTitle>`;
 
 
 const subtitleComponent = (content) => {
@@ -8,9 +6,5 @@ const subtitleComponent = (content) => {
 }
 
 
-
-
 export { subtitle, subtitleComponent };
-
-
 

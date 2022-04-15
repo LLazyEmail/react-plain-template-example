@@ -1,6 +1,4 @@
-export const heading = `<Heading>{content}</Heading>`;
-
-
+const heading = `<Heading>{content}</Heading>`;
 
 
 const headingComponent = (content) => {
@@ -8,9 +6,5 @@ const headingComponent = (content) => {
 }
 
 
-
-
 export { heading, headingComponent };
-
-
 

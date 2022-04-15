@@ -1,6 +1,4 @@
-export const q = "<Q>{content}</Q>";
-
-
+const q = "<Q>{content}</Q>";
 
 
 const qComponent = (content) => {
@@ -8,9 +6,5 @@ const qComponent = (content) => {
 }
 
 
-
-
 export { q, qComponent };
-
-
 

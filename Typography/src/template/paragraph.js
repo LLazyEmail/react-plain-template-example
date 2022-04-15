@@ -1,6 +1,4 @@
-export const paragraph = `<Paragraph>{content}</Paragraph>`;
-
-
+const paragraph = `<Paragraph>{content}</Paragraph>`;
 
 
 const paragraphComponent = (content) => {
@@ -8,9 +6,5 @@ const paragraphComponent = (content) => {
 }
 
 
-
-
 export { paragraph, paragraphComponent };
-
-
 

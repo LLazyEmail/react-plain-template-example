@@ -1,6 +1,4 @@
-export const code = '<Code>{content}</Code>';
-
-
+const code = '<Code>{content}</Code>';
 
 
 const codeComponent = (content) => {
@@ -8,9 +6,4 @@ const codeComponent = (content) => {
 }
 
 
-
-
 export { code, codeComponent };
-
-
-
