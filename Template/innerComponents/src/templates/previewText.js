@@ -3,8 +3,8 @@ export const previewText = `<PreviewText>{content}</PreviewText>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const ctaComponent = (content) => {
+    return `<PreviewText>${content}</PreviewText>`;
 }
 
 

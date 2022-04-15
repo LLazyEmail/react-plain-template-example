@@ -11,19 +11,15 @@ const {
 
 
 
+export const footer = `<Footer>{children}</Footer>`;
 
-const ctaComponent = () => {
-    return ctaList;
+
+const footerComponent = (children) => {
+    return `<Footer>${children}</Footer>`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { footer, footerComponent };
 
-
-
-
-
-
-export const footer = `<Footer>{children}</Footer>`;

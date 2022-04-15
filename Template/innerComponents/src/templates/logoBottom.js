@@ -4,7 +4,7 @@ export const logoBottom = `<Logo />`;
 
 
 const ctaComponent = () => {
-    return ctaList;
+    return `<Logo />`;
 }
 
 

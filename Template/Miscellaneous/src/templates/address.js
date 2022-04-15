@@ -10,14 +10,15 @@ ${config.mailingAddress}`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const addressComponent = (mailingAddress) => {
+    return `<Address />
+    ${config.mailingAddress}`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { address, addressComponent };
 
 
 

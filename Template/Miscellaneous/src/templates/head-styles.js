@@ -381,14 +381,14 @@ h4{
 
 
 
-const ctaComponent = () => {
-  return ctaList;
+const headStylesComponent = () => {
+  return headStyles;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { headStyles, headStylesComponent };
 
 
 

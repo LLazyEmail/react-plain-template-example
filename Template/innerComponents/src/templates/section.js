@@ -3,8 +3,8 @@ export const section = `<Section>{content}</Section>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const ctaComponent = (content) => {
+    return `<Section>${content}</Section>`;
 }
 
 

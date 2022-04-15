@@ -3,8 +3,8 @@ export const sponsor = `<Sponsor param="{content}" />`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const ctaComponent = (content) => {
+    return `<Sponsor param="${content}" />`;
 }
 
 

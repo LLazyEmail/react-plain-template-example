@@ -1,18 +1,15 @@
 import config from '../../config';
 
-export const unsubscribe = `<Unsubscribe />`;
+const unsubscribe = `<Unsubscribe />`;
 
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const unsubscribeComponent = () => {
+    return  `<Unsubscribe />`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
-
-
-
+export { unsubscribe, unsubscribeComponent };

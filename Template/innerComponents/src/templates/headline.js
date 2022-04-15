@@ -1,18 +1,8 @@
-export const headline = 
-`<HeadLine />`;
-
-
-
-
+export const headline = `<HeadLine />`;
 
 const ctaComponent = () => {
-    return ctaList;
+    return `<HeadLine />`;
 }
 
 
-
-
 export { ctaList, ctaComponent };
-
-
-
