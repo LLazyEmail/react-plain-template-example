@@ -3,14 +3,14 @@ export const del = '<Del>{content}</Del>';
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const delComponent = (content) => {
+    return '<Del>${content}</Del>';
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { del, delComponent };
 
 
 

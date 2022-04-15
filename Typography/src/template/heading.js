@@ -3,14 +3,14 @@ export const heading = `<Heading>{content}</Heading>`;
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const headingComponent = (content) => {
+    return `<Heading>${content}</Heading>`;
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { heading, headingComponent };
 
 
 

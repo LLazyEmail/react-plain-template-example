@@ -3,14 +3,14 @@ export const blockquote = '<Blockquote>{content}</Blockquote>';
 
 
 
-const ctaComponent = () => {
-    return ctaList;
+const blockquoteComponent = (content) => {
+    return '<Blockquote>${content}</Blockquote>';
 }
 
 
 
 
-export { ctaList, ctaComponent };
+export { blockquote, blockquoteComponent };
 
 
 
