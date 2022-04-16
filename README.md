@@ -6,3 +6,6 @@ will move code from this folder: https://github.com/LLazyEmail/_trying-lit/tree/
 not finished.
 Moving out templates from this folder/package
 Delete that npm module later `atherdon-newsletter-react`
+
+
+## TYPOGRAPHY Completed
