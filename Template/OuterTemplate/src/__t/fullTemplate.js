@@ -1,12 +1,22 @@
-import { headComponent } from '../templates/head'
+import { headComponent } from '../components/head'
 
-import bodyComponent from './body';
+import { EmailTemplateBodyComponent } from '../components/body';
 
 
 import mainComponent from '../components/mainComponent';
 
+
+
 // import { logoTop, logoBottom, footer } from "./body";
 
+
+
+
+// footer, logoTop, logoBottom, content=''
+
+
+
+const ContentData = '';
 
 
 // function reactFullTemplate(parsedContent) {
