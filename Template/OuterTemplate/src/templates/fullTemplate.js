@@ -1,9 +1,6 @@
-import head from './head';
+import { headComponent } from '../templates/head'
 
-import getBody from './body';
-
-
-
+import bodyComponent from './body';
 
 
 function reactFullTemplate(parsedContent) {
@@ -14,7 +11,7 @@ function reactFullTemplate(parsedContent) {
     return (
       <Template>
         ${head}
-        ${getBody(parsedContent)}
+        ${bodyComponent(parsedContent)}
       </Template>
     );
   };
