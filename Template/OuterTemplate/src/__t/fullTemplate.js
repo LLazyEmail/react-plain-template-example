@@ -3,7 +3,7 @@ import { headComponent } from '../templates/head'
 import bodyComponent from './body';
 
 
-import mainComponent from './mainComponent';
+import mainComponent from '../components/mainComponent';
 
 // import { logoTop, logoBottom, footer } from "./body";
 

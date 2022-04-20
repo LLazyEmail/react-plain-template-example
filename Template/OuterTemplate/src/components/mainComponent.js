@@ -1,4 +1,4 @@
-function reactFullTemplate(headComponent, bodyComponent, parsedContent) {
+function mainComponent(headComponent, bodyComponent, parsedContent) {
 
     if (!headComponent) {
         throw new Error('no headComponent was passed');
@@ -28,5 +28,5 @@ function reactFullTemplate(headComponent, bodyComponent, parsedContent) {
 
 
 
-export { reactFullTemplate };
+export { mainComponent };
 

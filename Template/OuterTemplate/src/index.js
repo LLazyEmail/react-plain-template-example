@@ -3,6 +3,8 @@ import misc from "./misc/";
 import typography from "./typography/";
 import { reactFullTemplate } from "./reactFullTemplate";
 
+
+
 const layout = {
   body,
   misc,
@@ -11,3 +13,6 @@ const layout = {
 };
 
 export default layout;
+
+
+

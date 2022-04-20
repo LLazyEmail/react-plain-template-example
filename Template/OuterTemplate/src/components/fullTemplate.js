@@ -1,7 +1,7 @@
 
 //---
 
-const reactFullTemplateComponent = (head, content='') => {
+const reactFullTemplateComponent = (headComponent, bodyComponent, content='') => {
     if(!head){
       throw new Error('no head was passed');
     }
@@ -13,7 +13,7 @@ const reactFullTemplateComponent = (head, content='') => {
       return (
         <Template>
           ${headComponent()}
-          ${getBody(content)}
+          ${bodyComponent(content)}
         </Template>
       );
     };
