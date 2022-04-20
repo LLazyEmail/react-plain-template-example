@@ -1,6 +1,7 @@
 //---
 
 const EmailTemplateBodyComponent = (footer, logoTop, logoBottom, content='') => {
+
     if(!footer){
       throw new Error('no footer was passed');
     }
@@ -13,3 +14,8 @@ const EmailTemplateBodyComponent = (footer, logoTop, logoBottom, content='') => 
   }
   
   export { EmailTemplateBodyComponent }
+
+
+
+  
+

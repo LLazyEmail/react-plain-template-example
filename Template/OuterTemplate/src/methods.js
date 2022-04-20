@@ -1,1 +1,1 @@
-xx
+import {} from '';

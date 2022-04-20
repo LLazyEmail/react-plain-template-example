@@ -5,7 +5,6 @@
 const head = `<Head/>`;
 
 
-
 const headComponent = () => {
 
     // if (!footer) {
@@ -15,7 +14,5 @@ const headComponent = () => {
     return `<Head/>`
 
 }
-
-
 
 export { head, headComponent };
