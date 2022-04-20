@@ -2,11 +2,16 @@
 
 
 // I DONT THINK IT WILL WORK SUCH EASILY
-function getBody(parsedContent) {
+function bodyComponent(parsedContent) {
+
+  if (!parsedContent) {
+    throw new Error('no parsed content was passed');
+  }
+
   return `<Body>${parsedContent}</Body>`;
 }
 
-export default getBody;
+export default bodyComponent;
 
 
 
