@@ -12,7 +12,7 @@ const reactFullTemplateComponent = (head, content='') => {
     const Content = () => {
       return (
         <Template>
-          ${head}
+          ${headComponent()}
           ${getBody(content)}
         </Template>
       );
