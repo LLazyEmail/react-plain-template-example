@@ -1,7 +1,21 @@
-import { headStyles } from './misc/head-styles';
-import { fonts } from './misc/fonts';
+// import { headStyles } from './misc/head-styles';
+// import { fonts } from './misc/fonts';
 
 
 const head = `<Head/>`;
 
-export default head;
+
+
+const headComponent = () => {
+
+    // if (!footer) {
+    //     throw new Error('no footer was passed');
+    // }
+
+    return `<Head/>`
+
+}
+
+
+
+export { head, headComponent };
