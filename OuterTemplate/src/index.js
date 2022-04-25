@@ -1,18 +1,26 @@
-import body from "./body/";
-import misc from "./misc/";
-import typography from "./typography/";
-import { reactFullTemplate } from "./reactFullTemplate";
+import EmailTemplateBodyComponent from "./components/bodyComponent";
+import headComponent from './components/headComponent';
+import mainComponent from "./components/mainComponent";
+
+// import misc from "./misc/";
+
+// import typography from "./typography/";
+
+
+// import { reactFullTemplate } from "./reactFullTemplate";
 
 
 
-const layout = {
-  body,
-  misc,
-  typography,
-  reactFullTemplate,
-};
+// const layout = {
+//   body,
+//   misc,
+//   typography,
+//   reactFullTemplate,
+// };
 
-export default layout;
+
+
+// export default layout;
 
 
 
