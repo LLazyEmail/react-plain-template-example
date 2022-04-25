@@ -1,3 +1,4 @@
+// update it
 function mainComponent(headComponent, bodyComponent, parsedContent) {
 
     if (!headComponent) {
@@ -28,5 +29,5 @@ function mainComponent(headComponent, bodyComponent, parsedContent) {
 
 
 
-export { mainComponent };
+export default mainComponent;
 

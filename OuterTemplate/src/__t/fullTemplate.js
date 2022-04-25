@@ -1,43 +1,27 @@
-import { headComponent } from '../components/head'
 
-import { EmailTemplateBodyComponent } from '../components/body';
+//---
 
-
-import mainComponent from '../components/mainComponent';
-
-
-
-// import { logoTop, logoBottom, footer } from "./body";
-
-
-
-
-// footer, logoTop, logoBottom, content=''
-
-
-
-const ContentData = '';
-
-
-// function reactFullTemplate(parsedContent) {
-//   return `
-//   import React from "react";
-
-//   const Content = () => {
-//     return (
-//       <Template>
-//         ${head}
-//         ${bodyComponent(parsedContent)}
-//       </Template>
-//     );
-//   };
+const reactFullTemplateComponent = (headComponent, bodyComponent, content='') => {
+    if(!headComponent){
+      throw new Error('no head was passed');
+    }
   
-//   export default Content;
+    return `
+    import React from "react";
   
-//   `;
-// }
-
-
-
-// export { reactFullTemplate };
-
+    const Content = () => {
+      return (
+        <Template>
+          ${headComponent()}
+          ${bodyComponent(content)}
+        </Template>
+      );
+    };
+    
+    export default Content;
+    
+    `;
+  
+  }
+  
+  export { reactFullTemplateComponent }
