@@ -1,5 +1,7 @@
 //---
 
+// add preview stuff
+
 const EmailTemplateBodyComponent = (footer, logoTop, logoBottom, content='') => {
 
     if(!footer){
@@ -13,7 +15,7 @@ const EmailTemplateBodyComponent = (footer, logoTop, logoBottom, content='') => 
   
   }
   
-  export { EmailTemplateBodyComponent }
+  export default  EmailTemplateBodyComponent;
 
 
 
