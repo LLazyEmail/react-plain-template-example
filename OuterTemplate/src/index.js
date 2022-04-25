@@ -2,6 +2,9 @@ import EmailTemplateBodyComponent from "./components/bodyComponent";
 import headComponent from './components/headComponent';
 import mainComponent from "./components/mainComponent";
 
+
+import footerComponent from './components/footer';
+
 // import misc from "./misc/";
 
 // import typography from "./typography/";

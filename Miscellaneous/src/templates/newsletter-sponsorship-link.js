@@ -1,12 +1,12 @@
 // import config from '../../config';
 
-const newsletterSponsorshipLink = `<NewsletterSponsorshipLink />`;
+// const newsletterSponsorshipLink = `<NewsletterSponsorshipLink />`;
 
 const newsletterSponsorshipLinkComponent = () => {
     return `<NewsletterSponsorshipLink />`;
 }
 
-export { newsletterSponsorshipLink, newsletterSponsorshipLinkComponent };
+export default newsletterSponsorshipLinkComponent;
 
 
 

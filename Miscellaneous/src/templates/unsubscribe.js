@@ -1,9 +1,6 @@
-import config from '../../config';
+// import config from '../../config';
 
-const unsubscribe = `<Unsubscribe />`;
-
-
-
+// const unsubscribe = `<Unsubscribe />`;
 
 const unsubscribeComponent = () => {
     return  `<Unsubscribe />`;
@@ -12,4 +9,4 @@ const unsubscribeComponent = () => {
 
 
 
-export { unsubscribe, unsubscribeComponent };
+export default unsubscribeComponent;

@@ -1,9 +1,9 @@
-import { address, addressComponent } from './templates/address';
-import { copyrights , copyrightsComponent} from './templates/copyrights';
-import { fonts, fontsComponent } from './templates/fonts';
-import { headStyles, headStylesComponent } from './templates/head-styles';
-import { newsletterSponsorshipLink, newsletterSponsorshipLinkComponent } from './templates/newsletter-sponsorship-link';
-import { unsubscribe, unsubscribeComponent } from './templates/unsubscribe';
+import addressComponent from './templates/address';
+import copyrightsComponent from './templates/copyrights';
+import fontsComponent from './templates/fonts';
+import headStylesComponent from './templates/head-styles';
+import newsletterSponsorshipLinkComponent from './templates/newsletter-sponsorship-link';
+import unsubscribeComponent from './templates/unsubscribe';
 
 // import MiscellaneousComponents from './components'
 
@@ -16,4 +16,4 @@ const misc =  {
     unsubscribe,
 }
 
-export default misc;
+export default Miscellaneous;

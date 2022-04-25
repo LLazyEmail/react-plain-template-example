@@ -1,12 +1,6 @@
-import { mailingAddress } from '../../config';
+// import { mailingAddress } from '../../config';
 
-import config from '../../config';
-
-
-
-const address = `<Address />
-${config.mailingAddress}`;
-
+// import config from '../../config';
 
 
 const addressComponent = (mailingAddress) => {
@@ -15,7 +9,4 @@ const addressComponent = (mailingAddress) => {
 }
 
 
-export { address, addressComponent };
-
-
-
+export default addressComponent;

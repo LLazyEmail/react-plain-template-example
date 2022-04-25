@@ -1,4 +1,3 @@
-import { footerComponent } from './components/footer';
 import { headlineComponent } from './components/headline';
 import { logoBottomComponent } from './components/logoBottom';
 import { logoTopComponent } from './components/logoTop';
@@ -9,7 +8,7 @@ import { sponsorComponent } from './components/sponsor';
 // import innerComponents from './components'
 
 const innerComponents = {
-    footerComponent,
+
     headlineComponent,
     logoBottomComponent,
     logoTopComponent,

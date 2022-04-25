@@ -1,8 +1,10 @@
-// import { writeHTML, generateTemplateName } from 'markup-generator'
+import { writeHTML, generateTemplateName } from 'markup-generator'
 // //-----
-// import { displayMain, mainComponent} from './templates/main'
 
-// import { headComponent, displayHead } from './templates/head'
+import DisplayMain from './display/displayMain'
+
+import DisplayHead from './display/displayHead'
+
 
 // // and body
 // //----
@@ -12,6 +14,8 @@
 // //   checkingBodyContent,
 // //   checkingPreviewText 
 // // } from './t/display'
+
+
 
 // import footer from './templates/footer'
 
