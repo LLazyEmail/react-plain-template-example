@@ -45,5 +45,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "@root(.*)$": "<rootDir>/src/$1"
+   }
   }
 }

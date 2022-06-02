@@ -48,5 +48,10 @@
   },
   "dependencies": {
     "markup-generator": "^0.4.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "@root(.*)$": "<rootDir>/src/$1"
+   }
   }
 }
