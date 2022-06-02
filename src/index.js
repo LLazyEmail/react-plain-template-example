@@ -3,7 +3,7 @@ import headComponent from './components/headComponent';
 import mainComponent from "./components/mainComponent";
 
 
-import footerComponent from './components/footer';
+import footerComponent from './components/footerComponent';
 
 // import misc from "./misc/";
 
