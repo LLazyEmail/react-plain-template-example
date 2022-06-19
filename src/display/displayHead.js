@@ -1,3 +1,6 @@
+// import factory from './factory';
+import displayFactoryTwo from './factoryTwo';
+
 // partials
 import misc from 'atherdon-newsletter-js-layouts-misc';
 import { headStyles } from '.../templates/head-styles';
