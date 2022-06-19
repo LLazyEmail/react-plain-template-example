@@ -15,8 +15,15 @@ import DisplayBody from './displayBody';
 
 // import bodyComponent from '../components/bodyComponent'
 
+let addon1 = {
+    footer: footerString,
 
-// should we include 
+    logoTop:logoTopComponent(), 
+    logoBottom: logoBottomComponent(), 
+    content:'[[THIS IS PLACE FOR A CONTENT INSIDE]',
+    previewText:previewTextComponent('[AMA PREVIEW TEXT]')
+
+}
 
 //variant one
 const settings = {
