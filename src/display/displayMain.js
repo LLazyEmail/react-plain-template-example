@@ -18,6 +18,20 @@ import DisplayBody from './displayBody';
 
 // should we include 
 
+//variant one
+const settings = {
+    component: EmailTemplateBodyComponent,
+    // params: { footerComponent, logoTop, logoBottom, content },
+    params: addon1,
+    subcomponents: {  }
+    
+}
+
+const BodyFactory = new displayFactoryTwo();
+
+export default BodyFactory.create(settings);
+
+
 // note that head and body params are actually `displayHead` & `displayBody` 
 // methods for sub-components
 
