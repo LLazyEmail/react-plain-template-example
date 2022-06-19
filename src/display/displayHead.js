@@ -48,25 +48,4 @@ const BodyFactory = new displayFactoryTwo();
 export default BodyFactory.create(settings);
 
 
-const DisplayHead = {
-  component: headComponent,
-  params: { title, headStyles, fonts },
 
-
-  display: () => {
-
-
-
-    // return this.component(....)
-
-    //const displayHead = (title) => {
-    //  return headComponent(title, headStyles, fonts);
-    //}
-
-
-  },
-  checks: () => []
-  
-}
-
-export default DisplayHead;
