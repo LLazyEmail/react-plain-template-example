@@ -1,3 +1,6 @@
+// import factory from './factory';
+import displayFactoryTwo from './factoryTwo';
+
 // partials
 import bodyContent from '../components/bodyComponent'
 
