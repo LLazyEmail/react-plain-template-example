@@ -56,12 +56,4 @@ export default BodyFactory.create(settings);
 const DisplayBody = {
   component: bodyContent,
   params: { footer, logoTop, logoBottom, content }, // we need to add previewText
-  display: () => {
-
-    
-  },
-  checks: () => []
-  
-}
-
-export default DisplayBody;
+ 
