@@ -25,6 +25,20 @@ const checkingBodyContent = (bodyContent) => {
 // const ContentData = '';
 
 
+//variant one
+const settings = {
+    component: EmailTemplateBodyComponent,
+    // params: { footerComponent, logoTop, logoBottom, content },
+    params: addon1,
+    subcomponents: {  }
+    
+}
+
+const BodyFactory = new displayFactoryTwo();
+
+export default BodyFactory.create(settings);
+
+
 // note that footer param here is a subcomponent, 
 // so we passing footerDisplay instead of just a component
 
