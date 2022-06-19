@@ -22,6 +22,21 @@ const checkingTitle = (title) => {
 }
 // ---
 
+
+//variant one
+const settings = {
+    component: EmailTemplateBodyComponent,
+    // params: { footerComponent, logoTop, logoBottom, content },
+    params: addon1,
+    subcomponents: {  }
+    
+}
+
+const BodyFactory = new displayFactoryTwo();
+
+export default BodyFactory.create(settings);
+
+
 const DisplayHead = {
   component: headComponent,
   params: { title, headStyles, fonts },
