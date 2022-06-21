@@ -47,11 +47,12 @@
     "access": "public"
   },
   "dependencies": {
+    "email-template-object": "^0.1.0",
     "markup-generator": "^0.5.0"
   },
   "jest": {
     "moduleNameMapper": {
       "@root(.*)$": "<rootDir>/src/$1"
-   }
+    }
   }
 }
