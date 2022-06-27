@@ -1,5 +1,5 @@
 // import factory from './factory';
-import displayFactoryTwo from './factoryTwo';
+import displayFactoryTwo from 'email-template-object';
 
 // partials
 import bodyContent from '../components/bodyComponent'
