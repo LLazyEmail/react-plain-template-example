@@ -50,5 +50,5 @@
   "dependencies": {
     "email-template-object": "^0.2.0",
     "markup-generator": "^0.5.0"
-  }  
+  }
 }

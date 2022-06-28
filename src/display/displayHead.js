@@ -2,7 +2,8 @@
 import displayFactoryTwo from 'email-template-object';
 
 // partials
-import misc from 'atherdon-newsletter-js-layouts-misc';
+import misc from 'atherdon-newsletter-react-layouts-miscellaneous';
+
 import { headStyles } from '.../templates/head-styles';
 import { headComponent } from '../templates/head';
 

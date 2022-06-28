@@ -1,24 +1,50 @@
 import { writeHTML, generateTemplateName } from 'markup-generator'
 // //-----
 
-import DisplayMain from './display/displayMain'
-
-import DisplayHead from './display/displayHead'
-
-
-// // and body
-// //----
-
-
-// // import { checkingTitle,
-// //   checkingBodyContent,
-// //   checkingPreviewText 
-// // } from './t/display'
 
 
 
-// import footer from './templates/footer'
+import HeadString from './display/displayHead';
+
+import BodyString from './display/displayBody';
+
+// import FooterString from './display/displayFooter';
+
+import MainString from './display/displayMain';
+
+const printHead = () => {
+    return HeadString;
+  };
+  
+  const printMain = () => {
+    return MainString;
+  };
+  
+//   const printFooter = () => {
+//     return FooterString;
+//   };
+  
+  const printBody = () => {
+    return BodyString;
+  };
 
 
-// import { EmailTemplateBodyComponent } from './templates/body'
+  const writingFile = (content) => {
+    if (!content) {
+      throw new Error('no content was passed into writingFile method');
+    }
+  
+    // const content  = generateEmptyTemplateComponent();
+    const fileName = generateTemplateName('lit-empty');
+  
+    try {
+      writeHTML(fileName, content);
+    } catch (err) {
+      //console.log(err);
+      //console.log(content);
+    }
+  };
 
+
+  
+export { printMain, printBody, printHead, writingFile };
