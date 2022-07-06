@@ -1,10 +1,3 @@
-// import { headStyles } from './misc/head-styles';
-// import { fonts } from './misc/fonts';
-
-
-// const head = `<Head/>`;
-
-
 const headComponent = (title, headStyles, fonts) => {
 
     if (!title) throw new Error('no title was passed');

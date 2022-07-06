@@ -1,4 +1,3 @@
-//---
 
 // add preview stuff
 // we need to find footer component
