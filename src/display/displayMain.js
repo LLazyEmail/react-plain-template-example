@@ -1,5 +1,5 @@
 // import factory from './factory';
-import displayFactoryTwo from 'email-template-object';
+import {displayFactoryTwo} from 'email-template-object';
 
 // partials
 // import headComponent from '../components/headComponent'
@@ -26,17 +26,17 @@ import DisplayBody from './displayBody';
 // }
 
 //variant one
-const settings = {
-    component: EmailTemplateBodyComponent,
-    // params: { footerComponent, logoTop, logoBottom, content },
-    params: addon1,
-    subcomponents: {  }
+// const settings = {
+//     component: EmailTemplateBodyComponent,
+//     // params: { footerComponent, logoTop, logoBottom, content },
+//     params: addon1,
+//     subcomponents: {  }
     
-}
+// }
 
-const BodyFactory = new displayFactoryTwo();
+// const Factory = new displayFactoryTwo();
 
-export default BodyFactory.create(settings);
+// export default Factory.create(settings);
 
 
 // note that head and body params are actually `displayHead` & `displayBody` 

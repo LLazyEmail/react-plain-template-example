@@ -1,9 +1,9 @@
 // import factory from './factory';
-import displayFactoryTwo from 'email-template-object';
+import { displayFactoryTwo } from 'email-template-object';
 
 // partials
 import Miscellaneous from 'atherdon-newsletter-react-layouts-miscellaneous';
-import { headComponent } from '../components/head';
+import headComponent from '../components/headComponent';
 
 
 const { fontsComponent, headStylesComponent } = Miscellaneous;
@@ -21,26 +21,25 @@ const checkingTitle = (title) => {
 // ---
 
 
-fonts, headStyles
+// fonts, headStyles
 
 let addon1 = {
+
     title,
     headStyles: headStylesComponent(),
     fonts: fontsComponent()
-
-//     footer: footerString,
 
 //     logoTop:logoTopComponent(), 
 //     logoBottom: logoBottomComponent(), 
 //     content:'[[THIS IS PLACE FOR A CONTENT INSIDE]',
 //     previewText:previewTextComponent('[AMA PREVIEW TEXT]')
+
 }
 
 //variant one
 const settings = {
     component: headComponent,
     params: addon1,
-//     // params: { footerComponent, logoTop, logoBottom, content },
 //     subcomponents: {  }
 }
 
