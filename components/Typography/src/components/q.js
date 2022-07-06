@@ -6,5 +6,5 @@ const qComponent = (content) => {
 }
 
 
-export { q, qComponent };
+export { qComponent };
 

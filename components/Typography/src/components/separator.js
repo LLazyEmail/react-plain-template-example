@@ -5,5 +5,5 @@ const separatorComponent = () => {
     return `<Separator />`;
 }
 
-export { separator, separatorComponent };
+export {  separatorComponent };
 

@@ -1,45 +1,46 @@
-import { heading, headingComponent } from './components/heading';
-import { image, imageComponent } from './components/image';
-import { italic, italicComponent } from './components/italic';
-import { link, linkComponent } from './components/link';
-import { list, listComponent } from './components/list';
-import { listItem, listItemComponent } from './components/listItem';
-import { mainTitle, mainTitleComponent } from './components/mainTitle';
-import { paragraph, paragraphComponent } from './components/paragraph';
-import { strong, strongComponent } from './components/strong';
-import { subtitle, subtitleComponent } from './components/subtitle';
+import {  headingComponent } from './components/heading';
+import {  imageComponent } from './components/image';
+import {  italicComponent } from './components/italic';
+import {  linkComponent } from './components/link';
+import {  listComponent } from './components/list';
+import {  listItemComponent } from './components/listItem';
+import {  mainTitleComponent } from './components/mainTitle';
+import {  paragraphComponent } from './components/paragraph';
+import {  strongComponent } from './components/strong';
+import {  subtitleComponent } from './components/subtitle';
 
-import { q, qComponent } from './components/q';
-import { del, delComponent} from './components/del';
-import { code, codeComponent} from './components/code';
-import { blockquote, blockquoteComponent} from './components/blockquote';
-
-
-import { separator, separatorComponent } from './components/separator';
+import {  qComponent } from './components/q';
+import {  delComponent} from './components/del';
+import {  codeComponent} from './components/code';
+import {  blockquoteComponent} from './components/blockquote';
 
 
+import {  separatorComponent } from './components/separator';
 
 
-// import typographyComponents from './components';
 
 
+  
 
 const typography = {
-  heading,
-  image,
-  italic,
-  link,
-  list,
-  listItem,
-  mainTitle,
-  paragraph,
-  strong,
-  subtitle,
-  q,
-  del,
-  code,
-  blockquote,
-  separator, 
+  headingComponent, 
+  imageComponent, 
+  italicComponent,
+  linkComponent, 
+  listComponent, 
+  listItemComponent, 
+  mainTitleComponent, 
+  paragraphComponent, 
+  strongComponent, 
+  subtitleComponent, 
+
+  qComponent, 
+  delComponent, 
+  codeComponent,
+  blockquoteComponent, 
+
+  separatorComponent, 
+
 };
 
 export default typography;

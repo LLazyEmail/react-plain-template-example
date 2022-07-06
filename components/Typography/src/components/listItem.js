@@ -5,5 +5,5 @@ const listItemComponent = (content) => {
     return `<ListItem>${content}</ListItem>`;
 }
 
-export { listItem, listItemComponent };
+export {  listItemComponent };
 

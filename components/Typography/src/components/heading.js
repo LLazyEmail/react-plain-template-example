@@ -6,5 +6,5 @@ const headingComponent = (content) => {
 }
 
 
-export { heading, headingComponent };
+export {  headingComponent };
 

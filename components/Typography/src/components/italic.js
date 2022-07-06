@@ -4,5 +4,5 @@ const italicComponent = (content) => {
     return `<Italic>${content}</Italic>`;
 }
 
-export { italic, italicComponent };
+export {  italicComponent };
 

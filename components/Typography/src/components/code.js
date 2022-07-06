@@ -6,4 +6,4 @@ const codeComponent = (content) => {
 }
 
 
-export { code, codeComponent };
+export {  codeComponent };

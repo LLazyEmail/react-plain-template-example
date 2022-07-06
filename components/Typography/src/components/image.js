@@ -6,5 +6,5 @@ const imageComponent = (href, src, altText) => {
 }
 
 
-export { image, imageComponent };
+export {  imageComponent };
 

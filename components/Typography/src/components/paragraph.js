@@ -6,5 +6,5 @@ const paragraphComponent = (content) => {
 }
 
 
-export { paragraph, paragraphComponent };
+export {  paragraphComponent };
 

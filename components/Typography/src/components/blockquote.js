@@ -5,4 +5,4 @@ const blockquoteComponent = (content) => {
     return '<Blockquote>${content}</Blockquote>';
 }
 
-export { blockquote, blockquoteComponent };
+export {  blockquoteComponent };

@@ -5,5 +5,5 @@ const strongComponent = (content) => {
 }
 
 
-export { strong, strongComponent };
+export {  strongComponent };
 

@@ -6,5 +6,5 @@ const subtitleComponent = (content) => {
 }
 
 
-export { subtitle, subtitleComponent };
+export {  subtitleComponent };
 

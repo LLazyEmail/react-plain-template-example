@@ -6,4 +6,4 @@ const mainTitleComponent = (content) => {
 }
 
 
-export { mainTitle, mainTitleComponent };
+export {  mainTitleComponent };

@@ -6,5 +6,5 @@ const listComponent = (type, content) => {
 }
 
 
-export { list, listComponent };
+export {  listComponent };
 
