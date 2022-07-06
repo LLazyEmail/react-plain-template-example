@@ -1,4 +1,4 @@
-const image = `<Image href="{href}" src="{src}" alt="{altText}" />`;
+// const image = `<Image href="{href}" src="{src}" alt="{altText}" />`;
 
 
 const imageComponent = (href, src, altText) => {

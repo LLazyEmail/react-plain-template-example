@@ -1,4 +1,4 @@
-const blockquote = '<Blockquote>{content}</Blockquote>';
+// const blockquote = '<Blockquote>{content}</Blockquote>';
 
 
 const blockquoteComponent = (content) => {

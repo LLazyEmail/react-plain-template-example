@@ -1,4 +1,4 @@
-const mainTitle = `<MainTitle>{content}</MainTitle>`;
+// const mainTitle = `<MainTitle>{content}</MainTitle>`;
 
 
 const mainTitleComponent = (content) => {

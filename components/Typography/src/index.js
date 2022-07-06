@@ -1,26 +1,26 @@
-import { heading, headingComponent } from './templates/heading';
-import { image, imageComponent } from './templates/image';
-import { italic, italicComponent } from './templates/italic';
-import { link, linkComponent } from './templates/link';
-import { list, listComponent } from './templates/list';
-import { listItem, listItemComponent } from './templates/listItem';
-import { mainTitle, mainTitleComponent } from './templates/mainTitle';
-import { paragraph, paragraphComponent } from './templates/paragraph';
-import { strong, strongComponent } from './templates/strong';
-import { subtitle, subtitleComponent } from './templates/subtitle';
+import { heading, headingComponent } from './components/heading';
+import { image, imageComponent } from './components/image';
+import { italic, italicComponent } from './components/italic';
+import { link, linkComponent } from './components/link';
+import { list, listComponent } from './components/list';
+import { listItem, listItemComponent } from './components/listItem';
+import { mainTitle, mainTitleComponent } from './components/mainTitle';
+import { paragraph, paragraphComponent } from './components/paragraph';
+import { strong, strongComponent } from './components/strong';
+import { subtitle, subtitleComponent } from './components/subtitle';
 
-import { q, qComponent } from './templates/q';
-import { del, delComponent} from './templates/del';
-import { code, codeComponent} from './templates/code';
-import { blockquote, blockquoteComponent} from './templates/blockquote';
-
-
-import { separator, separatorComponent } from './templates/separator';
+import { q, qComponent } from './components/q';
+import { del, delComponent} from './components/del';
+import { code, codeComponent} from './components/code';
+import { blockquote, blockquoteComponent} from './components/blockquote';
 
 
+import { separator, separatorComponent } from './components/separator';
 
 
-import typographyComponents from './components';
+
+
+// import typographyComponents from './components';
 
 
 

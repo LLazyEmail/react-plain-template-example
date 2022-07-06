@@ -1,4 +1,4 @@
-const separator = `<Separator />`;
+// const separator = `<Separator />`;
 
 
 const separatorComponent = () => {

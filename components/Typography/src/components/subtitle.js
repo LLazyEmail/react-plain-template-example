@@ -1,4 +1,4 @@
-const subtitle = `<SubTitle>{content}</SubTitle>`;
+// const subtitle = `<SubTitle>{content}</SubTitle>`;
 
 
 const subtitleComponent = (content) => {

@@ -1,4 +1,4 @@
-const q = "<Q>{content}</Q>";
+// const q = "<Q>{content}</Q>";
 
 
 const qComponent = (content) => {

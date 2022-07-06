@@ -1,4 +1,4 @@
-const listItem = `<ListItem>{content}</ListItem>`;
+// const listItem = `<ListItem>{content}</ListItem>`;
 
 
 const listItemComponent = (content) => {

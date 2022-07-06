@@ -1,4 +1,4 @@
-const heading = `<Heading>{content}</Heading>`;
+// const heading = `<Heading>{content}</Heading>`;
 
 
 const headingComponent = (content) => {

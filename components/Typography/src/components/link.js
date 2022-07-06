@@ -1,4 +1,4 @@
-const link = `<Link href="{href}">{content}</Link>`;
+// const link = `<Link href="{href}">{content}</Link>`;
 
 
 const linkComponent = (href, content) => {

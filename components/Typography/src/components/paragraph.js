@@ -1,4 +1,4 @@
-const paragraph = `<Paragraph>{content}</Paragraph>`;
+// const paragraph = `<Paragraph>{content}</Paragraph>`;
 
 
 const paragraphComponent = (content) => {
