@@ -25,28 +25,28 @@ const checkingTitle = (title) => {
 
 
 
-let addon1 = {
-    footer: footerString,
+// let addon1 = {
+//     footer: footerString,
 
-    logoTop:logoTopComponent(), 
-    logoBottom: logoBottomComponent(), 
-    content:'[[THIS IS PLACE FOR A CONTENT INSIDE]',
-    previewText:previewTextComponent('[AMA PREVIEW TEXT]')
+//     logoTop:logoTopComponent(), 
+//     logoBottom: logoBottomComponent(), 
+//     content:'[[THIS IS PLACE FOR A CONTENT INSIDE]',
+//     previewText:previewTextComponent('[AMA PREVIEW TEXT]')
 
-}
+// }
 
 //variant one
-const settings = {
-    component: EmailTemplateBodyComponent,
-    // params: { footerComponent, logoTop, logoBottom, content },
-    params: addon1,
-    subcomponents: {  }
+// const settings = {
+//     component: EmailTemplateBodyComponent,
+//     // params: { footerComponent, logoTop, logoBottom, content },
+//     params: addon1,
+//     subcomponents: {  }
     
-}
+// }
 
-const BodyFactory = new displayFactoryTwo();
+// const BodyFactory = new displayFactoryTwo();
 
-export default BodyFactory.create(settings);
+// export default BodyFactory.create(settings);
 
 
 

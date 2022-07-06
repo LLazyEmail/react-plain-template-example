@@ -7,13 +7,20 @@ import unsubscribeComponent from './templates/unsubscribe';
 
 // import MiscellaneousComponents from './components'
 
-const misc =  {
-    address,
-    copyrights,
-    fonts,
-    headStyles,
-    newsletterSponsorshipLink,
-    unsubscribe,
+const Miscellaneous =  {
+    addressComponent,
+    copyrightsComponent,
+    fontsComponent,
+    headStylesComponent,
+    newsletterSponsorshipLinkComponent,
+    unsubscribeComponent,
+
+    // address,
+    // copyrights,
+    // fonts,
+    // headStyles,
+    // newsletterSponsorshipLink,
+    // unsubscribe,
 }
 
 export default Miscellaneous;

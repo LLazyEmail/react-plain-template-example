@@ -14,19 +14,19 @@ import MainString from './display/displayMain';
 
 const printHead = () => {
     return HeadString;
-  };
+};
   
-  const printMain = () => {
-    return MainString;
-  };
+// const printMain = () => {
+//   return MainString;
+// };
   
 //   const printFooter = () => {
 //     return FooterString;
 //   };
   
-  const printBody = () => {
-    return BodyString;
-  };
+// const printBody = () => {
+//   return BodyString;
+// };
 
 
   const writingFile = (content) => {
@@ -47,4 +47,7 @@ const printHead = () => {
 
 
   
-export { printMain, printBody, printHead, writingFile };
+export { 
+  // printMain, printBody, 
+  printHead, writingFile 
+};
