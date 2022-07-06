@@ -1,4 +1,4 @@
-// import factory from './factory';
+
 import displayFactoryTwo from 'email-template-object';
 
 // partials
@@ -47,13 +47,13 @@ const settings = {
 
 const BodyFactory = new displayFactoryTwo();
 console.log(BodyFactory.create(settings))
-export default BodyFactory.create(settings);
+// export default BodyFactory.create(settings);
 
 
 // note that footer param here is a subcomponent, 
 // so we passing footerDisplay instead of just a component
 
-const DisplayBody = {
-  component: bodyContent,
-  params: { footer, logoTop, logoBottom, content }, // we need to add previewText
+// const DisplayBody = {
+//   component: bodyContent,
+//   params: { footer, logoTop, logoBottom, content }, // we need to add previewText
  
