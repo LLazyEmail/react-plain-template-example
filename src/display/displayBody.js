@@ -38,19 +38,10 @@ const settings = {
     component: EmailTemplateBodyComponent,
     // params: { footerComponent, logoTop, logoBottom, content },
     params: addon1,
-    subcomponents: {  }
+    // subcomponents: {  }
     
 }
 
 const BodyFactory = new displayFactoryTwo();
-console.log(BodyFactory.create(settings))
-// export default BodyFactory.create(settings);
-
-
-// note that footer param here is a subcomponent, 
-// so we passing footerDisplay instead of just a component
-
-// const DisplayBody = {
-//   component: bodyContent,
-//   params: { footer, logoTop, logoBottom, content }, // we need to add previewText
- 
+// console.log(BodyFactory.create(settings))
+export default BodyFactory.create(settings);

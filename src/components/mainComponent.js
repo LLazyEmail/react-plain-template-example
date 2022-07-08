@@ -1,11 +1,10 @@
-// update it
 function mainComponent(params) {
     
     if (!params) {
         throw new Error('no Params was passed');
     }   
 
-    const { head, body, parsedContent } = params;
+    const { head, body } = params;
 
 
     if (!head) {
@@ -13,10 +12,9 @@ function mainComponent(params) {
     }
 
     if (!body) {
-        throw new Error('bodyComponent logo');
+        throw new Error('bodyComponent');
     }
 
-    // const { headString, bodyString } = params;
 
     return `
     import React from "react";
@@ -25,7 +23,7 @@ function mainComponent(params) {
         return (
         <Template>
             ${head}
-            ${body(parsedContent)}
+            ${body}
         </Template>
         );
     };

@@ -48,5 +48,5 @@ const settings = {
 // console.log(settings)
 
 const Factory = new displayFactoryTwo();
-console.log(Factory.create(settings));
+// console.log(Factory.create(settings));
 export default Factory.create(settings);
