@@ -1,28 +1,21 @@
 
-import {displayFactoryTwo} from 'email-template-object';
+import { displayFactoryTwo } from 'email-template-object';
 
-// partials
-import bodyContent from '../components/bodyComponent'
-
-import footerComponent from '../components/footerComponent';
-
+import EmailTemplateBodyComponent from '../components/bodyComponent';
 import footerString from '../display/displayFooter';
 
 // const ERROR_BODY = '`bodyContent` is a required option for `renderTemplate`';
+
+import { 
+    logoTopComponent, logoBottomComponent 
+} from 'atherdon-newsletter-react-layouts-innercomponents';
+
 
 const checkingBodyContent = (bodyContent) => {
     if (!bodyContent) {
         throw new Error('`bodyContent` is a required option for `renderTemplate`');
     }
 }
-
-
-// import { logoTop, logoBottom, footer } from "./body";
-
-
-// footer, logoTop, logoBottom, content=''
-
-
 
 // const ContentData = '';
 
@@ -32,8 +25,10 @@ let addon1 = {
 
     logoTop:logoTopComponent(), 
     logoBottom: logoBottomComponent(), 
-    content:'[[THIS IS PLACE FOR A CONTENT INSIDE]',
-    previewText:previewTextComponent('[AMA PREVIEW TEXT]')
+
+    content: '[[THIS IS PLACE FOR A CONTENT INSIDE]'
+
+    // previewText: previewTextComponent('[AMA PREVIEW TEXT]')
 
 }
 

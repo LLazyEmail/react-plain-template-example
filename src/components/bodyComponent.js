@@ -1,4 +1,3 @@
-
 // add preview stuff
 // we need to find footer component
 const EmailTemplateBodyComponent = (params) => {
@@ -16,9 +15,4 @@ const EmailTemplateBodyComponent = (params) => {
   return `<Body>${content}</Body>`;  
 }
   
-  export default  EmailTemplateBodyComponent;
-
-
-
-  
-
+export default EmailTemplateBodyComponent;

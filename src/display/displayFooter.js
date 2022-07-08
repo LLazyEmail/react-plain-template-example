@@ -14,15 +14,13 @@ const {
 } = misc;  
 
 const addon1 = {
-    address: '',
-    sponsor: ''
+    children: '',
+    // sponsor: ''
 }
 
 const settings = {
     component: footerComponent,
     params: addon1,
-
-    subcomponents: {}
 }
 
 const FooterFactory = new displayFactoryTwo();
