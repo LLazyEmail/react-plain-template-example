@@ -1,7 +1,7 @@
 # react-plain-template-example
 
 
-similar architecture to: https://github.com/LLazyEmail/_trying-lit
+similar architecture to: https://github.com/LLazyEmail/_trying-lit & https://github.com/LLazyEmail/nomoretogo_email_template
 
 
 - Module not finished. 
