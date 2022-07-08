@@ -1,5 +1,5 @@
 // import factory from './factory';
-import {displayFactoryTwo} from 'email-template-object';
+import { displayFactoryTwo } from 'email-template-object';
 
 // partials
 // import headComponent from '../components/headComponent'
@@ -7,10 +7,7 @@ import {displayFactoryTwo} from 'email-template-object';
 import MainComponent from '../components/mainComponent'
 
 
-import DisplayBody from './displayBody';
-
-
-
+import BodyString from './displayBody';
 
 
 // import bodyComponent from '../components/bodyComponent'
@@ -42,14 +39,16 @@ import DisplayBody from './displayBody';
 // note that head and body params are actually `displayHead` & `displayBody` 
 // methods for sub-components
 
-const DisplayMain = {
-  component: MainComponent,
-  params: { headComponent, bodyComponent },
+// const DisplayMain = {
+//   component: MainComponent,
+//   params: { headComponent, bodyComponent },
  
   
-}
+// }
 
-export default DisplayMain;
+// export default DisplayMain;
+
+
 
 
 
