@@ -1604,17 +1604,17 @@ asn1.js@^5.2.0:
 
 atherdon-newsletter-react-layouts-innercomponents@^0.2.0:
   version "0.2.0"
-  resolved "https://registry.npmjs.org/atherdon-newsletter-react-layouts-innercomponents/-/atherdon-newsletter-react-layouts-innercomponents-0.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/atherdon-newsletter-react-layouts-innercomponents/-/atherdon-newsletter-react-layouts-innercomponents-0.2.0.tgz#5cccc12152395806079470740206af438b42ceab"
   integrity sha512-Zmg8nvfqWjhU9RyAnI9Jw7/nFFbxFjNuQw4p3G69KLgQ3iDXWP65x/oEU+4EfcztorkUpCaoU/PeemRqaVbuhg==
 
 atherdon-newsletter-react-layouts-miscellaneous@^1.5.0:
   version "1.5.0"
-  resolved "https://registry.npmjs.org/atherdon-newsletter-react-layouts-miscellaneous/-/atherdon-newsletter-react-layouts-miscellaneous-1.5.0.tgz"
+  resolved "https://registry.yarnpkg.com/atherdon-newsletter-react-layouts-miscellaneous/-/atherdon-newsletter-react-layouts-miscellaneous-1.5.0.tgz#f2cbac9cfefb2116e9ee7ce4a7bf02679386eda4"
   integrity sha512-wt1bi1orxqdbGWz9w8OOKSrpTFtHWSAcAbLYmUZFotQTjZ427T+a/6ANAq76Cy5XwPEhvnzCB0ADkQ58yDjfqw==
 
 atherdon-newsletter-react-layouts-typography@^0.3.0:
   version "0.3.0"
-  resolved "https://registry.npmjs.org/atherdon-newsletter-react-layouts-typography/-/atherdon-newsletter-react-layouts-typography-0.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/atherdon-newsletter-react-layouts-typography/-/atherdon-newsletter-react-layouts-typography-0.3.0.tgz#236c2019d03145f20f143aed73a13f6f6b68f510"
   integrity sha512-1ffARr42G2l+2jyKudxJDo1P+3CI0Ig/aCzrf+q3KKR7iZdVcZlawv7NaUy5irXYoP557Owu0+V5HBoErJMdxQ==
 
 babel-eslint@10.1.0:

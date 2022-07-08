@@ -15,15 +15,15 @@ console.log(printHead())
 describe('test helpers', () => {
 
 
-    test('rendering head component', () => {
+    // test('rendering head component', () => {
 
-      const string1 = printHead();
+    //   const string1 = printHead();
 
-    //   // console.log(string);
-      expect(printHead()).toBeDefined();
+    // //   // console.log(string);
+    //   expect(printHead()).toBeDefined();
 
-      writingFile(string1);
-    });
+    //   writingFile(string1);
+    // });
 
 
     test('rendering Footer Component', () => {
@@ -38,12 +38,12 @@ describe('test helpers', () => {
 
     test('rendering Body Component', () => {
 
-      const string3 = printBody();
+      // const string3 = printBody();
 
-      // console.log(string);
-      expect(printBody()).toBeDefined();
+      // // console.log(string);
+      // expect(printBody()).toBeDefined();
 
-      writingFile(string3);
+      // writingFile(string3);
     });
 
     
@@ -58,13 +58,13 @@ describe('test helpers', () => {
    test('rendering Main Component', () => {
 
 // 
-       const string4 = printMain();
+      //  const string4 = printMain();
 
-      //  // console.log(string);
+      // //  // console.log(string);
 
-       expect(printMain()).toBeDefined();
+      //  expect(printMain()).toBeDefined();
 
-       writingFile(string4);
+      //  writingFile(string4);
        // expect(typeof string).toBe('string');
 
    });

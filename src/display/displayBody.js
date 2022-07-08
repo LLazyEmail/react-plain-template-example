@@ -4,7 +4,9 @@ import {displayFactoryTwo} from 'email-template-object';
 // partials
 import bodyContent from '../components/bodyComponent'
 
-import footerComponent from '../components/footer';
+import footerComponent from '../components/footerComponent';
+
+import footerString from '../display/displayFooter';
 
 // const ERROR_BODY = '`bodyContent` is a required option for `renderTemplate`';
 

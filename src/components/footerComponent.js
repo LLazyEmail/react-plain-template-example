@@ -1,5 +1,5 @@
 
-const footer = `<Footer>{children}</Footer>`;
+// const footer = `<Footer>{children}</Footer>`;
 
 
 const footerComponent = (children) => {

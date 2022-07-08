@@ -43,6 +43,9 @@ const settings = {
 //     subcomponents: {  }
 }
 
+console.log(addon1)
+// console.log(settings)
+
 const Factory = new displayFactoryTwo();
 
 export default Factory.create(settings);

@@ -1,7 +1,11 @@
 // update it
-function mainComponent(headComponent, bodyComponent, parsedContent) {
+function mainComponent(params) {
+    
+    if (!params) {
+        throw new Error('no Params was passed');
+    }
 
-    if (!headComponent) {
+     if (!headComponent) {
         throw new Error('no headComponent was passed');
     }
 
@@ -9,6 +13,10 @@ function mainComponent(headComponent, bodyComponent, parsedContent) {
         throw new Error('bodyComponent logo');
     }
 
+    const { headComponent, bodyComponent, parsedContent } = params;
+
+
+    // const { headString, bodyString } = params;
 
     return `
     import React from "react";
