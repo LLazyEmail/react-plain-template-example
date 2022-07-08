@@ -3,18 +3,18 @@ function mainComponent(params) {
     
     if (!params) {
         throw new Error('no Params was passed');
+    }   
+
+    const { head, body, parsedContent } = params;
+
+
+    if (!head) {
+        throw new Error('no headComponent was passed'); // todo change it later
     }
 
-     if (!headComponent) {
-        throw new Error('no headComponent was passed');
-    }
-
-    if (!bodyComponent) {
+    if (!body) {
         throw new Error('bodyComponent logo');
     }
-
-    const { headComponent, bodyComponent, parsedContent } = params;
-
 
     // const { headString, bodyString } = params;
 
@@ -24,8 +24,8 @@ function mainComponent(params) {
     const Content = () => {
         return (
         <Template>
-            ${headComponent()}
-            ${bodyComponent(parsedContent)}
+            ${head}
+            ${body(parsedContent)}
         </Template>
         );
     };
@@ -38,4 +38,3 @@ function mainComponent(params) {
 
 
 export default mainComponent;
-

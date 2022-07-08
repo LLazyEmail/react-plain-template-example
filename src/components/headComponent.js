@@ -6,7 +6,7 @@ const headComponent = (params) => {
     if (!headStyles) throw new Error('invalid headStyles');
     if (!fonts)     throw new Error('invalid fonts');
 
-    return `<Head title={title} styles={headStyles} fonts={fonts} />`
+    return `<Head title=${title} styles=${headStyles} fonts=${fonts} />`
 
 }
 

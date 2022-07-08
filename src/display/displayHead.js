@@ -31,6 +31,7 @@ let addon1 = {
 
 //     logoTop:logoTopComponent(), 
 //     logoBottom: logoBottomComponent(), 
+
 //     content:'[[THIS IS PLACE FOR A CONTENT INSIDE]',
 //     previewText:previewTextComponent('[AMA PREVIEW TEXT]')
 
@@ -40,15 +41,12 @@ let addon1 = {
 const settings = {
     component: headComponent,
     params: addon1,
-//     subcomponents: {  }
+
 }
 
-console.log(addon1)
+// console.log(addon1)
 // console.log(settings)
 
 const Factory = new displayFactoryTwo();
-
+console.log(Factory.create(settings));
 export default Factory.create(settings);
-
-
-

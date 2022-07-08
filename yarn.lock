@@ -3511,7 +3511,7 @@ makeerror@1.0.12:
 
 markup-generator@^0.5.0:
   version "0.5.0"
-  resolved "https://registry.npmjs.org/markup-generator/-/markup-generator-0.5.0.tgz"
+  resolved "https://registry.yarnpkg.com/markup-generator/-/markup-generator-0.5.0.tgz#b710916d3ef04db594ad08a693b5e0a9b0f75577"
   integrity sha512-qgfR/sI4tFVKG+72OK4QLFey4qx1pRHeOPlB6gweeiWkCm37vzKzPwPtWx0sfRpzl5SUFGjTc9jdv9SQrsRYVw==
   dependencies:
     fs "^0.0.1-security"
