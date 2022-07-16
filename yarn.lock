@@ -3509,7 +3509,7 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
-markup-generator@^0.5.5:
+markup-generator@0.5.5:
   version "0.5.5"
   resolved "https://registry.npmjs.org/markup-generator/-/markup-generator-0.5.5.tgz"
   integrity sha512-Vuk2IgRkKaH5xz8n3SwqmuLLLdM0+1YHItuWHnQZH7oQEWIiOQSZ02rrtf4poA+fjqOfG7CyMcWtIk/soTWogw==
