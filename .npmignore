@@ -1,1 +1,7 @@
 src
+tests
+node_modules
+.github
+.gitpod.yml   
+eslintrc.js
+generated
