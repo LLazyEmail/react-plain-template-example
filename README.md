@@ -1,4 +1,4 @@
-# react-plain-template-example
+# react-plain-template-example aka "atherdon-newsletter-react-layouts-outertemplate" 
 
 
 similar architecture to: https://github.com/LLazyEmail/_trying-lit & https://github.com/LLazyEmail/nomoretogo_email_template
