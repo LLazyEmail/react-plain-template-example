@@ -1,8 +1,6 @@
-// const blockquote = '<Blockquote>{content}</Blockquote>';
-
-
-const blockquoteComponent = (content) => {
-    return '<Blockquote>${content}</Blockquote>';
+const blockquoteComponent = (params) => {
+    const { content } = params;
+    return `<Blockquote>${content}</Blockquote>`;
 }
 
-export {  blockquoteComponent };
+export { blockquoteComponent };

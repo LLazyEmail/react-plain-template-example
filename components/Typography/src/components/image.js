@@ -1,10 +1,7 @@
-// const image = `<Image href="{href}" src="{src}" alt="{altText}" />`;
-
-
-const imageComponent = (href, src, altText) => {
+const imageComponent = (params) => {
+    const {href, src, altText} = params;
     return `<Image href="${href}" src="${src}" alt="${altText}" />`;
 }
 
 
-export {  imageComponent };
-
+export { imageComponent };

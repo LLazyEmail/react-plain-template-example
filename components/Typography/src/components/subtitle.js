@@ -1,7 +1,5 @@
-// const subtitle = `<SubTitle>{content}</SubTitle>`;
-
-
-const subtitleComponent = (content) => {
+const subtitleComponent = (params) => {
+    const { content } = params;
     return `<SubTitle>${content}</SubTitle>`;
 }
 

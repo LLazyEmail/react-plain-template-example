@@ -1,7 +1,5 @@
-// const heading = `<Heading>{content}</Heading>`;
-
-
-const headingComponent = (content) => {
+const headingComponent = (params) => {
+    const {content} = params;
     return `<Heading>${content}</Heading>`;
 }
 

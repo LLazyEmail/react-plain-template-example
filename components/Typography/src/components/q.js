@@ -1,8 +1,6 @@
-// const q = "<Q>{content}</Q>";
-
-
-const qComponent = (content) => {
-    return "<Q>${content}</Q>";
+const qComponent = (params) => {
+    const {content} = params;
+    return `<Q>${content}</Q>`;
 }
 
 

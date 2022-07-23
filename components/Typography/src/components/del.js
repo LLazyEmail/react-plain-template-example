@@ -1,8 +1,7 @@
-// const del = '<Del>{content}</Del>';
-
-const delComponent = (content) => {
-    return '<Del>${content}</Del>';
+const delComponent = (params) => {
+    const {content} = params;
+    return `<Del>${content}</Del>`;
 }
 
-export {  delComponent };
+export { delComponent };
 

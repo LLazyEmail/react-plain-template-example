@@ -1,7 +1,5 @@
-// const mainTitle = `<MainTitle>{content}</MainTitle>`;
-
-
-const mainTitleComponent = (content) => {
+const mainTitleComponent = (params) => {
+    const {content} = params;
     return `<MainTitle>${content}</MainTitle>`;
 }
 

@@ -1,7 +1,5 @@
-// const paragraph = `<Paragraph>{content}</Paragraph>`;
-
-
-const paragraphComponent = (content) => {
+const paragraphComponent = (params) => {
+    const {content} = params;
     return `<Paragraph>${content}</Paragraph>`;
 }
 

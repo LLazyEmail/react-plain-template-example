@@ -1,7 +1,5 @@
-/* values of type UL, OL  */
-// const list = `<List type="{type}">{content}</List>`;
-
-const listComponent = (type, content) => {
+const listComponent = (params) => {
+    const {type, content} = params;
     return `<List type="${type}">${content}</List>`;
 }
 

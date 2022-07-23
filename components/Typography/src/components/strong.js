@@ -1,9 +1,6 @@
-// const strong = `<Strong>{content}</Strong>`;
-
-const strongComponent = (content) => {
+const strongComponent = (params) => {
+    const { content } = params;
     return `<Strong>${content}</Strong>`;
 }
 
-
-export {  strongComponent };
-
+export { strongComponent };

@@ -1,7 +1,5 @@
-// const listItem = `<ListItem>{content}</ListItem>`;
-
-
-const listItemComponent = (content) => {
+const listItemComponent = (params) => {
+    const {content} = params;
     return `<ListItem>${content}</ListItem>`;
 }
 
