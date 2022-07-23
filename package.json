@@ -51,7 +51,7 @@
   "dependencies": {
     "atherdon-newsletter-react-layouts-innercomponents": "^0.2.0",
     "atherdon-newsletter-react-layouts-miscellaneous": "^1.5.0",
-    "atherdon-newsletter-react-layouts-typography": "^0.3.0",
+    "atherdon-newsletter-react-layouts-typography": "^0.4.0",
     "email-template-object": "^0.2.0"
   }
 }

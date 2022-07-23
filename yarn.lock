@@ -1612,10 +1612,10 @@ atherdon-newsletter-react-layouts-miscellaneous@^1.5.0:
   resolved "https://registry.npmjs.org/atherdon-newsletter-react-layouts-miscellaneous/-/atherdon-newsletter-react-layouts-miscellaneous-1.5.0.tgz"
   integrity sha512-wt1bi1orxqdbGWz9w8OOKSrpTFtHWSAcAbLYmUZFotQTjZ427T+a/6ANAq76Cy5XwPEhvnzCB0ADkQ58yDjfqw==
 
-atherdon-newsletter-react-layouts-typography@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/atherdon-newsletter-react-layouts-typography/-/atherdon-newsletter-react-layouts-typography-0.3.0.tgz"
-  integrity sha512-1ffARr42G2l+2jyKudxJDo1P+3CI0Ig/aCzrf+q3KKR7iZdVcZlawv7NaUy5irXYoP557Owu0+V5HBoErJMdxQ==
+atherdon-newsletter-react-layouts-typography@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/atherdon-newsletter-react-layouts-typography/-/atherdon-newsletter-react-layouts-typography-0.4.0.tgz"
+  integrity sha512-gdUR9WKpBcN0uuxpcej2UjUZaMX56OAvYeVKSU7A3JuL12Ey3b3zK0OGL09BuOizj7K/KFgO4SW8O2ljtf+T5g==
 
 babel-eslint@10.1.0:
   version "10.1.0"
