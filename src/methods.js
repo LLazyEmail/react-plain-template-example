@@ -26,11 +26,11 @@ const printBody = () => {
 };
 
 
-  const _writingFile = (content) => {
+const _writingFile = (content) => {
 
-    writingFile(content, 'lit-empty')
+  writingFile(content, 'lit-empty')
 
-  };
+};
 
 
   

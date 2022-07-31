@@ -1,4 +1,4 @@
-import { printMain,  printFooter, printBody, printHead, printFooter, _writingFile } from '../src/methods'
+import { printMain,  printFooter, printBody, printHead,  writingFile } from '../src/methods'
 
 
 // console.log(printMain())
@@ -21,8 +21,8 @@ describe('test helpers', () => {
 
     //   // console.log(string);
       expect(printHead()).toBeDefined();
-
-      _writingFile(string1);
+      writingFile(string1, 'lit-empty');
+      
     });
 
 
@@ -34,6 +34,7 @@ describe('test helpers', () => {
       expect(printFooter()).toBeDefined();
 
       writingFile(string2);
+      writingFile(string1, 'lit-empty');
     });
 
     test('rendering Body Component', () => {
@@ -44,6 +45,7 @@ describe('test helpers', () => {
       expect(printBody()).toBeDefined();
 
       writingFile(string3);
+      writingFile(string1, 'lit-empty');
     });
 
     
@@ -65,6 +67,7 @@ describe('test helpers', () => {
        expect(printMain()).toBeDefined();
 
        writingFile(string4);
+       writingFile(string1, 'lit-empty');
        expect(typeof string).toBe('string');
 
    });
