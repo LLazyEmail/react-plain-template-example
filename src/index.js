@@ -1,7 +1,6 @@
-import EmailTemplateBodyComponent from "./components/bodyComponent";
+import EmailTemplateBodyComponent from './components/bodyComponent';
 import headComponent from './components/headComponent';
-import mainComponent from "./components/mainComponent";
-
+import mainComponent from './components/mainComponent';
 
 import footerComponent from './components/footerComponent';
 
@@ -9,10 +8,7 @@ import footerComponent from './components/footerComponent';
 
 // import typography from "./typography/";
 
-
 // import { reactFullTemplate } from "./reactFullTemplate";
-
-
 
 // const layout = {
 //   body,
@@ -21,9 +17,4 @@ import footerComponent from './components/footerComponent';
 //   reactFullTemplate,
 // };
 
-
-
 // export default layout;
-
-
-

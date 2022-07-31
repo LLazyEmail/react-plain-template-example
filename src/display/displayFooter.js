@@ -8,20 +8,17 @@ let mailingAddress = 'PO Box 2206, Edwards CO, 81632, U.S.A.';
 let contact =
   'https://sponsor.hackernoon.com/newsletter?ref=noonifications.tech';
 
-
-const {
-
-} = misc;  
+const {} = misc;
 
 const addon1 = {
-    children: '',
-    // sponsor: ''
-}
+  children: '',
+  // sponsor: ''
+};
 
 const settings = {
-    component: footerComponent,
-    params: addon1,
-}
+  component: footerComponent,
+  params: addon1,
+};
 
 const FooterFactory = new displayFactoryTwo();
 // console.log(FooterFactory.create(settings));

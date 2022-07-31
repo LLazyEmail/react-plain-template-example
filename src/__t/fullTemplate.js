@@ -1,12 +1,15 @@
-
 //---
 
-const reactFullTemplateComponent = (headComponent, bodyComponent, content='') => {
-    if(!headComponent){
-      throw new Error('no head was passed');
-    }
-  
-    return `
+const reactFullTemplateComponent = (
+  headComponent,
+  bodyComponent,
+  content = ''
+) => {
+  if (!headComponent) {
+    throw new Error('no head was passed');
+  }
+
+  return `
     import React from "react";
   
     const Content = () => {
@@ -21,7 +24,6 @@ const reactFullTemplateComponent = (headComponent, bodyComponent, content='') =>
     export default Content;
     
     `;
-  
-  }
-  
-  export { reactFullTemplateComponent }
+};
+
+export { reactFullTemplateComponent };

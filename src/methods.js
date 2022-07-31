@@ -9,23 +9,19 @@ import MainString from './display/displayMain';
 console.log(MainString);
 
 const printHead = () => {
-    return HeadString;
+  return HeadString;
 };
-  
+
 const printMain = () => {
   return MainString;
 };
-  
+
 const printFooter = () => {
   return FooterString;
 };
-  
+
 const printBody = () => {
   return BodyString;
 };
 
-  
-export { 
-  printMain, printBody, printFooter,
-  printHead,  
-};
+export { printMain, printBody, printFooter, printHead };

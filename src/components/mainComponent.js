@@ -1,22 +1,19 @@
 function mainComponent(params) {
-    
-    if (!params) {
-        throw new Error('no Params was passed');
-    }   
+  if (!params) {
+    throw new Error('no Params was passed');
+  }
 
-    const { head, body } = params;
+  const { head, body } = params;
 
+  if (!head) {
+    throw new Error('no headComponent was passed'); // todo change it later
+  }
 
-    if (!head) {
-        throw new Error('no headComponent was passed'); // todo change it later
-    }
+  if (!body) {
+    throw new Error('bodyComponent');
+  }
 
-    if (!body) {
-        throw new Error('bodyComponent');
-    }
-
-
-    return `
+  return `
     import React from "react";
 
     const Content = () => {
@@ -32,7 +29,5 @@ function mainComponent(params) {
     
     `;
 }
-
-
 
 export default mainComponent;

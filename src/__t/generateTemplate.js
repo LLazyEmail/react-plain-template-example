@@ -1,8 +1,5 @@
 // import things....
 
-
-const generateTemplateComponent = () => {
-
-}
+const generateTemplateComponent = () => {};
 
 export default generateTemplateComponent;
