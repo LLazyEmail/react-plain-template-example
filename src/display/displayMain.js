@@ -28,6 +28,12 @@ const settings = {
   params: addon1,
 };
 
-const Factory = new displayFactoryTwo();
+const MainFactory = new displayFactoryTwo();
 
-export default Factory.create(settings);
+const MainHTMLString = MainFactory.create(settings);
+
+export {
+  settings,
+  MainFactory,
+  MainHTMLString
+}

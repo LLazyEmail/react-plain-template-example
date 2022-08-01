@@ -1,19 +1,25 @@
 import HeadString from './display/displayHead';
 
-import BodyString from './display/displayBody';
+import { BodyHTMLString } from './display/displayBody';
 
 import FooterString from './display/displayFooter';
 
-import MainString from './display/displayMain';
+import { MainHTMLString } from './display/displayMain';
 
-console.log(MainString);
+// console.log(MainHTMLString);
+
+import displayTemplate from './t/displayTemplate';
+
+const printTemplate = (string) => {
+  displayTemplate(string);
+}
 
 const printHead = () => {
   return HeadString;
 };
 
 const printMain = () => {
-  return MainString;
+  return MainHTMLString;
 };
 
 const printFooter = () => {
@@ -21,7 +27,7 @@ const printFooter = () => {
 };
 
 const printBody = () => {
-  return BodyString;
+  return BodyHTMLString;
 };
 
-export { printMain, printBody, printFooter, printHead };
+export { printMain, printBody, printFooter, printHead, printTemplate };
