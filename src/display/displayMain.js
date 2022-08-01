@@ -6,7 +6,7 @@ import HeadString from './displayHead';
 
 // TODO we need to be able to pass content variable from this
 // file and
-import BodyString from './displayBody';
+import { BodyHTMLString } from './displayBody';
 
 // import EmailTemplateBodyComponent from '../components/bodyComponent';
 
@@ -16,7 +16,7 @@ const content = '[THIS IS PLACE FOR A CONTENT INSIDE]';
 
 let addon1 = {
   head: HeadString,
-  body: BodyString,
+  body: BodyHTMLString,
   // body: EmailTemplateBodyComponent()
   parsedContent: content,
 };
