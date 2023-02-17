@@ -3616,10 +3616,10 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
-markup-generator@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/markup-generator/-/markup-generator-1.3.0.tgz"
-  integrity sha512-HcVt3kHajW2FgZjRefxhlBcU7Mmq9nlXeOSXtcGKBKWsPZiKGw44fUIF7AkwW9myYad5F+l8BwHJdIMHA2V4nA==
+markup-generator@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/markup-generator/-/markup-generator-1.7.0.tgz#74ad0bc6d456a1c61173b9f19d80b7936a6cbe56"
+  integrity sha512-VXoK72lecrK9tThvXiSyw2gX5XZZ1cyhSV5IJCGH25vX5MjCBN32QmUjsIRfs+lMxjds4Zj8y1gxEEPYcpAS6g==
   dependencies:
     fs "^0.0.1-security"
     lodash "^4.17.21"
@@ -4200,10 +4200,10 @@ rollup-pluginutils@^2.3.1:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@3.7.4:
-  version "3.7.4"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.7.4.tgz#993c3b30eff1df96f5eafb7c2ef7648960f2fa34"
-  integrity sha512-jN9rx3k5pfg9H9al0r0y1EYKSeiRANZRYX32SuNXAnKzh6cVyf4LZVto1KAuDnbHT03E1CpsgqDKaqQ8FZtgxw==
+rollup@3.16.0:
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.16.0.tgz#2ca49e0f8015dda814f2cb93015775e58134611b"
+  integrity sha512-9wE1H5N1SJqnROpQanBGJ7lrIitwlUYGj4Va4eyf3+vNhoIHLPLag2/CUGIiq3V9lHOBJB6zTsGsPvc50oeihg==
   optionalDependencies:
     fsevents "~2.3.2"
 
