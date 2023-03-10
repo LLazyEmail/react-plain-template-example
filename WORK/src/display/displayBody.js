@@ -6,7 +6,7 @@ import {
 } from 'atherdon-newsletter-react-layouts-innercomponents';
 
 import EmailTemplateBodyComponent from '../components/bodyComponent';
-import footerString from '../display/displayFooter';
+import footerString from './displayFooter';
 
 // const ERROR_BODY = '`bodyContent` is a required option for `renderTemplate`';
 
