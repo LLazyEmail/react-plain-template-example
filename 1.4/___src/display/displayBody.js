@@ -1,16 +1,14 @@
 import { displayFactoryTwo } from 'email-template-object';
 
+import EmailTemplateBodyComponent from '../components/bodyComponent';
+import footerString from '../display/displayFooter';
+
+// const ERROR_BODY = '`bodyContent` is a required option for `renderTemplate`';
+
 import {
   logoTopComponent,
   logoBottomComponent,
 } from 'atherdon-newsletter-react-layouts-innercomponents';
-
-import EmailTemplateBodyComponent from '../components/bodyComponent';
-import footerString from './displayFooter';
-
-// const ERROR_BODY = '`bodyContent` is a required option for `renderTemplate`';
-
-
 
 const checkingBodyContent = (bodyContent) => {
   if (!bodyContent) {
@@ -40,11 +38,5 @@ const settings = {
 };
 
 const BodyFactory = new displayFactoryTwo();
-
-const BodyHTMLString = BodyFactory.create(settings);
-
-export {
-  BodyFactory,
-  settings,
-  BodyHTMLString
-} 
+// console.log(BodyFactory.create(settings))
+export default BodyFactory.create(settings);

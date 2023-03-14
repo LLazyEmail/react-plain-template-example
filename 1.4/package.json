@@ -11,11 +11,12 @@
     "build": "npm run clean && npm run bundle",
     "build:babel": "babel src -d dist",
     "prepublish": "npm run clean && npm run build",
-    "test": "jest ./tests --passWithNoTests",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
     "lint:prettier": "prettier --write src/",
     "lint": "eslint -c ./eslintrc.js --ext .js . --ignore-path ./.eslintignore --resolve-plugins-relative-to .",
-    "lint:fix": "eslint -c ./eslintrc.js --fix . --ignore-path ./.eslintignore --resolve-plugins-relative-to ."
+    "lint:fix": "eslint -c ./eslintrc.js --fix . --ignore-path ./.eslintignore --resolve-plugins-relative-to .",
+    "chmodler": "shx chmod -R 755 ./bash",
+    "test": "npm run chmodler && ./bash/tests.sh"
   },
   "devDependencies": {
     "@babel/cli": "7.18.9",

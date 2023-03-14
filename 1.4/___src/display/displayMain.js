@@ -6,7 +6,7 @@ import HeadString from './displayHead';
 
 // TODO we need to be able to pass content variable from this
 // file and
-import { BodyHTMLString } from './displayBody';
+import BodyString from './displayBody';
 
 // import EmailTemplateBodyComponent from '../components/bodyComponent';
 
@@ -16,7 +16,7 @@ const content = '[THIS IS PLACE FOR A CONTENT INSIDE]';
 
 let addon1 = {
   head: HeadString,
-  body: BodyHTMLString,
+  body: BodyString,
   // body: EmailTemplateBodyComponent()
   parsedContent: content,
 };
@@ -28,12 +28,6 @@ const settings = {
   params: addon1,
 };
 
-const MainFactory = new displayFactoryTwo();
+const Factory = new displayFactoryTwo();
 
-const MainHTMLString = MainFactory.create(settings);
-
-export {
-  settings,
-  MainFactory,
-  MainHTMLString
-}
+export default Factory.create(settings);
