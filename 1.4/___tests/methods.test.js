@@ -1,6 +1,6 @@
 import { printMain,  printFooter, printBody, printHead } from '../src/methods'
 
-import { writingFile } from 'markup-generator';
+import { writeGeneratedFile } from 'markup-generator';
 // console.log(printMain())
 // console.log(printHead())
 
@@ -15,11 +15,11 @@ import { writingFile } from 'markup-generator';
 describe('test helpers', () => {
 
 
-    test('rendering head component', () => {
+    test('rendering head component', async () => {
 
       const string1 = printHead();
 
-      writingFile(string1, 'lit-empty');
+      await writeGeneratedFile({ content: string1, prefix: 'lit-empty' });
 
     //   // console.log(string);
       expect(printHead()).toBeDefined();
@@ -28,11 +28,11 @@ describe('test helpers', () => {
     });
 
 
-    test('rendering Footer Component', () => {
+    test('rendering Footer Component', async () => {
 
       const string2 = printFooter();
 
-      writingFile(string2, 'lit-empty');
+      await writeGeneratedFile({ content: string2, prefix: 'lit-empty' });
 
       // console.log(string);
       expect(printFooter()).toBeDefined();
@@ -41,7 +41,7 @@ describe('test helpers', () => {
       
     });
 
-    test('rendering Body Component', () => {
+    test('rendering Body Component', async () => {
 
       const string3 = printBody();
 
@@ -49,7 +49,7 @@ describe('test helpers', () => {
       expect(printBody()).toBeDefined();
 
       // writingFile(string3);
-      writingFile(string3, 'lit-empty');
+      await writeGeneratedFile({ content: string3, prefix: 'lit-empty' });
     });
 
     
@@ -61,7 +61,7 @@ describe('test helpers', () => {
   //  });
 
 
-   test('rendering Main Component', () => {
+   test('rendering Main Component', async () => {
 
 
        const string4 = printMain();
@@ -71,7 +71,7 @@ describe('test helpers', () => {
        expect(printMain()).toBeDefined();
 
       //  writingFile(string4);
-       writingFile(string4, 'lit-empty');
+       await writeGeneratedFile({ content: string4, prefix: 'lit-empty' });
        expect(typeof string4).toBe('string');
 
    });
