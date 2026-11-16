@@ -59,3 +59,18 @@ similar architecture to: https://github.com/LLazyEmail/_trying-lit & https://git
 
 
 ## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+
+## CI / GitHub Actions
+
+The repo root has no `package.json`. The maintained package is **`1.4/`** (`atherdon-newsletter-react-layouts-outertemplate`), so every workflow runs inside that folder. `WORK/`, `components/` and `_old/` are not built in CI.
+
+| Workflow | File | When it runs | What it does |
+| --- | --- | --- | --- |
+| Node.js CI | `node.js.yml` | push and PR to `main` | In `1.4/`: `npm ci`, `npm run build` (Rollup) and `npm test` (Jest via `bash/tests.sh`) on Node 22 and 24. |
+| ESLint | `eslint.yml` | push and PR to `main`, plus weekly (Friday 00:33 UTC) | Lints `1.4/` with its `eslintrc.js` and uploads the results as SARIF to Security → Code scanning. Lint findings don't fail the job. |
+| CodeQL | `codeql-analysis.yml` | push and PR to `main`, plus weekly (Sunday 18:37 UTC) | GitHub code scanning for JavaScript. |
+| Node.js Package | `npm-publish.yml` | when a GitHub release is created | Tests `1.4/`, then `npm publish` from `1.4/` using the `NPM_TOKEN` repo secret. |
+
+Renovate (`renovate.json`, `config:base`) opens dependency PRs for every `package.json` in the repo.
+
+To reproduce CI locally: `cd 1.4 && npm ci && npm run build && npm test`.
