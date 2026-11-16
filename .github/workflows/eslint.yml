@@ -1,11 +1,5 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# ESLint is a tool for identifying and reporting on patterns
-# found in ECMAScript/JavaScript code.
-# More details at https://github.com/eslint/eslint
-# and https://eslint.org
+# ESLint code scanning for the maintained package in 1.4/. Lint findings are
+# uploaded as SARIF to Security -> Code scanning; they don't fail the job.
 
 name: ESLint
 
@@ -13,7 +7,6 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    # The branches below must be a subset of the branches above
     branches: [ "main" ]
   schedule:
     - cron: '33 0 * * 5'
@@ -25,25 +18,34 @@ jobs:
     permissions:
       contents: read
       security-events: write
+    defaults:
+      run:
+        working-directory: 1.4
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
-      - name: Install ESLint
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: 'npm'
+          cache-dependency-path: 1.4/package-lock.json
+
+      - name: Install dependencies
         run: |
-          npm install eslint@8.10.0
-          npm install @microsoft/eslint-formatter-sarif@2.1.7
+          npm ci
+          npm install --no-save @microsoft/eslint-formatter-sarif@3.1.0
 
       - name: Run ESLint
-        run: npx eslint .
-          --config .eslintrc.js
-          --ext .js,.jsx,.ts,.tsx
-          --format @microsoft/eslint-formatter-sarif 
-          --output-file eslint-results.sarif
+        run: npx eslint . -c ./eslintrc.js --ext .js
+          --ignore-path ./.eslintignore
+          --resolve-plugins-relative-to .
+          --format @microsoft/eslint-formatter-sarif
+          --output-file ../eslint-results.sarif
         continue-on-error: true
 
       - name: Upload analysis results to GitHub
-        uses: github/codeql-action/upload-sarif@v2
+        uses: github/codeql-action/upload-sarif@v4
         with:
           sarif_file: eslint-results.sarif
           wait-for-processing: true
