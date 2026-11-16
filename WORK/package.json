@@ -31,7 +31,7 @@
     "eslint": "8.26.0",
     "eslint-plugin-json": "3.1.0",
     "jest": "29.2.2",
-    "markup-generator": "^4.0.0",
+    "markup-generator": "^4.1.0",
     "prettier": "2.7.1",
     "rollup": "3.7.4",
     "rollup-plugin-includepaths": "0.2.4",
@@ -52,6 +52,7 @@
     "atherdon-newsletter-react-layouts-innercomponents": "^0.2.0",
     "atherdon-newsletter-react-layouts-miscellaneous": "^1.5.0",
     "atherdon-newsletter-react-layouts-typography": "^0.4.0",
-    "email-template-object": "^0.2.0"
+    "email-template-object": "^0.2.0",
+    "markup-generator": "^4.1.0"
   }
 }
